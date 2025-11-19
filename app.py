@@ -59,7 +59,6 @@ if st.button("Prediksi Harga Jual"):
 
         # Tampilkan hasil
         st.success(f"💰 Prediksi harga jual mobil Anda: **Rp {prediction_rupiah:,.0f}**")
-        st.caption(f"(≈ {prediction_rupee:,.0f} Rupee India, dikonversi ke Rupiah dengan kurs 1 INR = {kurs_inr_to_idr} IDR)")
     
     except Exception as e:
         st.error(f"Terjadi kesalahan saat memproses prediksi: {e}")
