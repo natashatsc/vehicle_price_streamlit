@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 from sklearn.preprocessing import LabelEncoder
 
-st.title("🚗 Prediksi Harga Mobil - CatBoost Model")
+st.title("Prediksi Harga Mobil Second")
 
 # Load model
 model = joblib.load("catboost.pkl")
